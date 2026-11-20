@@ -1,0 +1,15 @@
+{
+  "backbone": "mobilenet_v3_small",
+  "weights": "IMAGENET1K_V1",
+  "feature_dim": 576,
+  "frames": 16,
+  "frame_size": [
+    112,
+    112
+  ],
+  "normalization": "ImageNet",
+  "encoder_frozen": true,
+  "train_samples": 300,
+  "validation_samples": 30,
+  "test_used": false
+}

@@ -1,0 +1,6 @@
+dataset_index,true_label,predicted_label,confidence,correct
+337,ApplyLipstick,ApplyEyeMakeup,0.9920089244842529,False
+348,BabyCrawling,ApplyEyeMakeup,0.9680789113044739,False
+401,BenchPress,Archery,0.8041604161262512,False
+382,Basketball,BandMarching,0.41851380467414856,False
+386,Basketball,ApplyEyeMakeup,0.3052801489830017,False

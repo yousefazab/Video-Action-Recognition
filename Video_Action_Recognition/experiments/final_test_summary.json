@@ -1,0 +1,20 @@
+{
+  "architecture": "MobileNetV3-Small",
+  "pretraining": "ImageNet",
+  "full_fine_tuning": true,
+  "augmentation": false,
+  "selected_seed": 2026,
+  "best_epoch": 14,
+  "num_test_videos": 75,
+  "test_accuracy": 0.9333333333333333,
+  "test_precision_macro": 0.9441666666666666,
+  "test_recall_macro": 0.9345959595959596,
+  "test_macro_f1": 0.9320197552705292,
+  "test_weighted_f1": 0.9350586269595558,
+  "test_loss": 0.2851766427357992,
+  "correct_predictions": 70,
+  "wrong_predictions": 5,
+  "total_inference_time_sec": 0.6950271510013408,
+  "avg_inference_ms_per_video": 9.267028680017876,
+  "checkpoint": "/content/drive/MyDrive/Video_Action_Recognition/checkpoints/full_mobilenet_pretrained_seed_2026.pt"
+}

@@ -1,0 +1,18 @@
+{
+  "baseline": "Full pretrained MobileNetV3",
+  "augmentation": [
+    "Horizontal flip p=0.5",
+    "Brightness +/-10%",
+    "Contrast +/-10%"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "num_frames": 8,
+  "max_epochs": 15,
+  "learning_rate": 0.0003,
+  "validation_augmentation": false,
+  "test_used": false
+}

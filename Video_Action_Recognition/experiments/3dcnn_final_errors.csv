@@ -1,0 +1,9 @@
+dataset_index,true_label,predicted_label,confidence,correct
+306,Archery,BaseballPitch,0.8238682746887207,False
+322,Basketball,BabyCrawling,0.6455339193344116,False
+321,Basketball,BalanceBeam,0.6262754797935486,False
+308,Archery,Basketball,0.5643967390060425,False
+315,BandMarching,BalanceBeam,0.4582393765449524,False
+327,BenchPress,Archery,0.4485245645046234,False
+320,BaseballPitch,Basketball,0.4398130476474762,False
+317,BandMarching,Basketball,0.3804628551006317,False

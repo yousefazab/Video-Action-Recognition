@@ -1,0 +1,19 @@
+{
+  "architecture": "CNN_BiGRU_TemporalAttention",
+  "encoder": "MobileNetV3-Small",
+  "pretrained": true,
+  "encoder_frozen": true,
+  "hidden_dim": 128,
+  "bidirectional": true,
+  "attention": "Custom Additive Attention",
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 50,
+  "patience": 10,
+  "seeds": [
+    42,
+    123,
+    2026
+  ]
+}
